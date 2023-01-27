@@ -57,7 +57,7 @@ const buildEmployeeCard = () => {
         {
         type: 'input',
         name: 'name',
-        message: "What's the employee's?", 
+        message: "What's the employee's name?", 
         },
         {
         type: 'input',
