@@ -1,6 +1,7 @@
 
 module.exports = cards => {
     
+//Generates section for employee cards    
 return ` 
 <!DOCTYPE html>
     <html lang="en">
@@ -30,7 +31,7 @@ return `
 `
 }
 
-//Function to display card every time a new Employee is created.
+//Functions that creates cards for new employees
 function teamCards(cards) {
     const html = cards.map((employee) => {
 
